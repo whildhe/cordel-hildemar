@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    margin: 0px;
+    background-color: rgb(209, 208, 208);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: auto;   
+}
+
+header > h1{
+    padding-top: 50px; 
+    font-variant: small-caps;
+    font-size: 5vw;
+}
+header  > p{
+    padding-bottom: 50px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3vw;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+
+}
+
+section.imagem{
+    background-color: rgb(103, 102, 102);
+    color: rgb(200, 200, 200);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    width: 50%; 
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+    text-shadow: 1px 1px 5px black;
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+}
+
+section > p{
+    padding-bottom: 3em;
+    font-family:cursive;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
